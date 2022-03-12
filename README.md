@@ -20,6 +20,8 @@ install google Oauth api and watchdog
 cd c:\python34
 pip3 install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib  
 pip3 install watchdog  
+pip install --upgrade google-api-python-client  
+pip install typing
 ```
 
 create folder  
