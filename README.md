@@ -15,6 +15,32 @@ set enviroment
 path=%path%;C:\Python34;C:\Python34\Scripts  
 ```  
 
-install google Oauth api  
+install google Oauth api and watchdog
+```
+cd c:\python34
 pip3 install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib  
+pip3 install watchdog  
+```
+
+create folder  
+```  
+c:\gmail_python  
+```  
+
+copy the project file to this folder,  
+```
+pip3 install -r requirements.txt
+```
+
+edit common.py
+```
+change ourmail@gnail.con to yours.
+```
+
+send mail test.bat   
+```
+chcp 65001
+python send_emails.py your_email@gmail.com "This is a subject中文" "Body of the email中文" --files 1.pdf 2.txt 3.tif
+```
+
 
